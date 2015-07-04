@@ -10,7 +10,7 @@ public class ProcesarServiceEndpoint {
 
     @WebMethod
     public String doObservacion(String observacion) {
-        return "Recibido: " + observacion;
+        return "+ Recibido: " + observacion;
     }
 
     @WebMethod
